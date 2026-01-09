@@ -1,0 +1,53 @@
+{
+  "display": {
+      "title": {
+          "text": "Welcome To The Server!"
+      },
+      "description": {
+          "text": "Enter spawn!"
+      },
+      "icon": {
+          "id": "minecraft:writable_book"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "position": {
+                      "x": {
+                        "min": -59,
+                        "max": -31
+                      },
+                      "z": {
+                        "min": 101,
+                        "max": 124
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "tfh:advroot",
+  "rewards": {
+    "function": "tfh:warp1"
+  }
+}
