@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:wheat",
+      "minecraft:sugar"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:paper",
+    "components": {
+      "minecraft:custom_model_data": {
+        "floats": [
+          17
+        ]
+      },
+      "minecraft:item_name": "Waffle",
+      "minecraft:consumable": {
+        "consume_seconds": 3,
+        "animation": "eat"
+      }
+    },
+    "count": 1
+  }
+}

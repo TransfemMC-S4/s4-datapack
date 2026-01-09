@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:potato",
+      "minecraft:paper"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:paper",
+    "components": {
+      "minecraft:custom_model_data": {
+        "floats": [
+          16
+        ]
+      },
+      "minecraft:item_name": "Fries",
+      "minecraft:consumable": {
+        "consume_seconds": 3,
+        "animation": "eat"
+      }
+    },
+    "count": 1
+  }
+}
