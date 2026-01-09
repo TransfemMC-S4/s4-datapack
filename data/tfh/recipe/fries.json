@@ -1,11 +1,14 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    [
-      "minecraft:potato",
-      "minecraft:paper"
-    ]
-  ],
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        [
+            "potato"
+        ],
+        [
+            "paper"
+        ]
+    ],
   "result": {
     "id": "minecraft:paper",
     "components": {

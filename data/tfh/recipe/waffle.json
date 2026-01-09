@@ -1,11 +1,14 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    [
-      "minecraft:wheat",
-      "minecraft:sugar"
-    ]
-  ],
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        [
+            "wheat"
+        ],
+        [
+            "sugar"
+        ]
+    ],
   "result": {
     "id": "minecraft:paper",
     "components": {
