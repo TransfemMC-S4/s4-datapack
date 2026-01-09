@@ -1,0 +1,40 @@
+{
+  "display": {
+      "title": {
+          "text": "Excavator"
+      },
+      "description": {
+          "text": "Mine 100,000 Stone"
+      },
+      "icon": {
+          "id": "minecraft:diamond_pickaxe"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "playtime": {
+          "trigger": "minecraft:tick",
+          "conditions": {
+            "player": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "stats": [
+                  {
+                    "type": "minecraft:mined",
+                    "stat": "stone",
+                    "value": {
+                      "min": 100000,
+                      "max": 100005
+                    }
+                  }
+                ]
+              }
+            }
+          }
+      }
+  },
+  "parent": "tfh:serveradv/advroot"
+}

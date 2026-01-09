@@ -1,0 +1,9 @@
+{
+	"criteria": { "use_item": {
+		"trigger": "minecraft:consume_item",
+		"conditions": { "item": { "predicates": {
+			"minecraft:custom_data": {"bigbeverage":true}
+		}}}
+	}},
+	"rewards": { "function": "tfh:bigbeverage" }
+}

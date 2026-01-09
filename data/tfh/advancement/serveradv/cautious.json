@@ -1,0 +1,40 @@
+{
+  "display": {
+      "title": {
+          "text": "Cautious"
+      },
+      "description": {
+          "text": "Stay alive for 4000 minutes."
+      },
+      "icon": {
+          "id": "minecraft:clock"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "playtime": {
+          "trigger": "minecraft:any_block_use",
+          "conditions": {
+            "player": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "stats": [
+                  {
+                    "type": "custom",
+                    "stat": "time_since_death",
+                    "value": {
+                      "min": 4800000,
+                      "max": 7000000
+                    }
+                  }
+                ]
+              }
+            }
+          }
+      }
+  },
+  "parent": "tfh:serveradv/playtime"
+}

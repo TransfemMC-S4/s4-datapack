@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "aaa",
+      "aba",
+      "aaa"
+    ],
+    "key": {
+      "a": [
+        "minecraft:cobblestone",
+        "minecraft:cobbled_deepslate"
+      ],
+      "b": [
+        "minecraft:charcoal"
+      ]
+    },
+    "result": {
+      "id": "minecraft:blackstone",
+      "count": 8
+    }
+  }

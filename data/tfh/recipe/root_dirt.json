@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        [
+            "dirt"
+        ],
+        [
+            "moss_block"
+        ]
+    ],
+    "result": {
+        "id": "minecraft:rooted_dirt",
+        "count": 2
+    }
+}

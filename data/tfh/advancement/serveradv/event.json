@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Event Awards!"
+        },
+        "description": {
+            "text": "These advancements are achieved through participating in server events!"
+        },
+        "icon": {
+            "id": "minecraft:totem_of_undying"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "playtime": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "tfh:serveradv/advroot"
+  }

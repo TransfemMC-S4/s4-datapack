@@ -1,0 +1,40 @@
+{
+  "display": {
+      "title": {
+          "text": "Active Member"
+      },
+      "description": {
+          "text": "Play the server for 4000 minutes! You can now request to become an insider for fun perks!"
+      },
+      "icon": {
+          "id": "minecraft:clock"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "playtime": {
+          "trigger": "minecraft:any_block_use",
+          "conditions": {
+            "player": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "stats": [
+                  {
+                    "type": "custom",
+                    "stat": "play_time",
+                    "value": {
+                      "min": 4800000,
+                      "max": 6000000
+                    }
+                  }
+                ]
+              }
+            }
+          }
+      }
+  },
+  "parent": "tfh:serveradv/advroot"
+}

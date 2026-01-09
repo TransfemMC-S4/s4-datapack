@@ -1,0 +1,38 @@
+{
+  "display": {
+      "title": {
+          "text": "This Might Hurt!"
+      },
+      "description": {
+          "text": "Craft a metal pipe"
+      },
+      "icon": {
+        "id": "emerald",
+        "components": {
+          "minecraft:custom_model_data": {"floats": [5]}
+        }
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:emerald",
+						"count": 1,
+						"components": {
+							"minecraft:custom_model_data": {"floats": [5]},
+							"minecraft:item_name": "\"Metal Pipe\""
+						}
+					}
+				]
+			}
+		}
+	},
+  "parent": "tfh:serveradv/grow"
+}

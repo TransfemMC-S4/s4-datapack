@@ -1,0 +1,50 @@
+{
+  "display": {
+      "title": {
+          "text": "Warmer..."
+      },
+      "description": {
+          "text": "Getting closer!"
+      },
+      "icon": {
+          "id": "minecraft:recovery_compass"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "position": {
+                      "x": {
+                        "min": -4103,
+                        "max": -3103
+                      },
+                      "z": {
+                        "min": -2792,
+                        "max": -1792
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "tfh:serveradv/warm1"
+}

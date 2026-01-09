@@ -1,0 +1,42 @@
+advroot: Base advancements page
+allayally: Kill 1000 Pillagers
+railmaster: Ride a minecart for 10,000 Km
+scissorhands: Mine 100,000 Oak Leaves
+wanderer: Walk 200,000 km
+horsemaster: Ride a horse for 1,000,000 miles
+librarian: Break 10,000 Lecterns
+warp1: Enter Spawn for the first time
+warp2: Enter Penn for the first time
+warp3: Enter Cardinel for the first time
+warp4: Enter Selachia for the first time
+warp5: Enter Chelonia for the first time
+warp6: Enter Willowshade for the first time
+warm1: Be within 1000 blocks of it
+warm2: Be within 500 blocks of it
+warm3: Be within 100 blocks of it
+warm4: Find it
+playtime: Reach 4000 minutes of playtime
+nolife: Reach 30,000 minutes of playtime
+cautious: Reach 4000 minutes without dying
+immortal: Reach 10,000 minutes without dying
+bigworld: Drink a can of shrink soda for the first time
+smallworld: Drink a can of big beverage for the first time
+pipe: Craft a metal pipe for the first time
+excavator: Mine 100,000 stone
+dirt: Mine 100,000 dirt
+violent: Kill 100,000 entities
+gambler: Pick up an Allaycoin for the first time
+rich: hold a full inventory of diamonds
+mermaid: swim 100,000 miles
+jumper: jump 100,000 times
+sleepy: sleep 100 times
+musical: play a noteblock 1,000 times.
+frequent: Have over 50 sessions on the server
+Why?: Clean an armor piece.
+plant: Pot a plant
+webfisher: Catch 500 fish
+glow: buy a light block from the trader in Cardinel
+framing: buy a invisible item frame from the trader in Selachia
+
+
+Note: I removed a lot of these but I dont remembe which ones I did :p

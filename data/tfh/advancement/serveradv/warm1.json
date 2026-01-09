@@ -1,0 +1,50 @@
+{
+  "display": {
+      "title": {
+          "text": "What's That?"
+      },
+      "description": {
+          "text": "Something might be nearby"
+      },
+      "icon": {
+          "id": "minecraft:recovery_compass"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "position": {
+                      "x": {
+                        "min": -4603,
+                        "max": -2603
+                      },
+                      "z": {
+                        "min": -3292,
+                        "max": -1292
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "tfh:serveradv/advroot"
+}

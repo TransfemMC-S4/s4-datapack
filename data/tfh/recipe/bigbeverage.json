@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "B"
+  ],
+  "key": {
+    "X": [
+      "minecraft:red_mushroom"
+    ],
+    "B": [
+      "minecraft:glass_bottle"
+    ]
+  },
+  "result": {
+    "id": "minecraft:emerald",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Big Beverage",
+        "color": "green"
+      },
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:custom_model_data": {
+        "floats": [
+          1
+        ]
+      },
+      "minecraft:lore": [
+        "Drink to grow a little! Drink water to go back!"
+      ],
+      "minecraft:consumable": {
+        "consume_seconds": 1,
+        "animation": "drink",
+        "sound": "minecraft:entity.generic.drink",
+        "has_consume_particles": false
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "bigbeverage": true
+      }
+    }
+  }
+}

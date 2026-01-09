@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "b  ",
+    "b  "
+  ],
+  "key": {
+    "a": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:iron_block"
+    ],
+    "c": [
+      "minecraft:ancient_debris"
+    ]
+  },
+  "result": {
+    "id": "minecraft:emerald",
+    "components": {
+      "minecraft:custom_model_data": {
+        "floats": [
+          5
+        ]
+      },
+      "minecraft:item_name": "Metal Pipe",
+      "minecraft:use_cooldown": {
+        "seconds": 4,
+        "cooldown_group": "pipe"
+      },
+      "minecraft:enchantments": {
+        "minecraft:knockback": 5
+      },
+      "minecraft:enchantment_glint_override": false
+    },
+    "count": 1
+  }
+}

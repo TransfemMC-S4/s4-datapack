@@ -1,0 +1,40 @@
+{
+  "display": {
+      "title": {
+          "text": "I live here now"
+      },
+      "description": {
+          "text": "Play the server for 100000 minutes."
+      },
+      "icon": {
+          "id": "minecraft:clock"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "playtime": {
+          "trigger": "minecraft:any_block_use",
+          "conditions": {
+            "player": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "stats": [
+                  {
+                    "type": "custom",
+                    "stat": "play_time",
+                    "value": {
+                      "min": 120000000,
+                      "max": 150000000
+                    }
+                  }
+                ]
+              }
+            }
+          }
+      }
+  },
+  "parent": "tfh:serveradv/nolife"
+}

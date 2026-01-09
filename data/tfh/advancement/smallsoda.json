@@ -1,0 +1,9 @@
+{
+	"criteria": { "use_item": {
+		"trigger": "minecraft:consume_item",
+		"conditions": { "item": { "predicates": {
+			"minecraft:custom_data": {"smallsoda":true}
+		}}}
+	}},
+	"rewards": { "function": "tfh:smallsoda" }
+}

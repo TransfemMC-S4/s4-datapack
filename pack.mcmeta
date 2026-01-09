@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "description": {
+            "translate": "TransfemMC Season Four Datapack"
+        },
+        "min_format": [88, 0],
+        "max_format": [94.1, 0]
+    }
+}

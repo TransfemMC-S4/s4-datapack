@@ -1,0 +1,40 @@
+{
+  "display": {
+      "title": {
+          "text": "Immortal"
+      },
+      "description": {
+          "text": "Stay alive for 10000 minutes."
+      },
+      "icon": {
+          "id": "minecraft:clock"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "playtime": {
+          "trigger": "minecraft:tick",
+          "conditions": {
+            "player": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "stats": [
+                  {
+                    "type": "custom",
+                    "stat": "time_since_death",
+                    "value": {
+                      "min": 12000000,
+                      "max": 12100000
+                    }
+                  }
+                ]
+              }
+            }
+          }
+      }
+  },
+  "parent": "tfh:serveradv/cautious"
+}

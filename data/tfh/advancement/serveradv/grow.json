@@ -1,0 +1,26 @@
+{
+  "display": {
+      "title": {
+          "text": "Small World"
+      },
+      "description": {
+          "text": "Drink a can of Big Beverage"
+      },
+      "icon": {
+        "id": "emerald",
+        "components": {
+          "minecraft:custom_model_data": {"floats": [1]}
+        }
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "playtime": {
+          "trigger": "minecraft:impossible"
+      }
+  },
+  "parent": "tfh:serveradv/shrink"
+}
