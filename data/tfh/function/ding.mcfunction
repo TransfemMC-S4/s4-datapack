@@ -22,7 +22,7 @@ execute if score message dingtimer matches 11 run tellraw @a ["",{color:"white",
 execute if score message dingtimer matches 12 run tellraw @a ["",{color:"white",text:"日 "},{color:"#A2D2FF",text:"Thank you for playing season three!"}]
 execute if score message dingtimer matches 13 run tellraw @a ["",{color:"white",text:"日 "},{color:"#A2D2FF",text:"Thank you to all that donated to keep the server running the entire year!"}]
 execute if score message dingtimer matches 14 run tellraw @a ["",{color:"white",text:"日 "},{color:"#A2D2FF",text:"Fia says hi!"}]
-execute if score message dingtimer matches 15 run tellraw @a ["",{color:"white",text:"日 "},{color:"blue",text:"2h3174 Come in 2h3174"}]
+execute if score message dingtimer matches 15 run tellraw @a ["",{color:"white",text:"日 "},{color:"blue",text:"I'm fries!!!!"}]
 
 
 #repeat
