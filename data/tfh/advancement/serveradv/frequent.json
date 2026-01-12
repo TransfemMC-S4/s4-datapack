@@ -27,7 +27,7 @@
                     "stat": "minecraft:leave_game",
                     "value": {
                       "min": 100,
-                      "max": 200
+                      "max": 105
                     }
                   }
                 ]
