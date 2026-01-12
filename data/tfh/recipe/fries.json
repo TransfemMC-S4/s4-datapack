@@ -10,11 +10,11 @@
         ]
     ],
   "result": {
-    "id": "minecraft:paper",
+    "id": "minecraft:apple",
     "components": {
       "minecraft:custom_model_data": {
         "floats": [
-          16
+          1
         ]
       },
       "minecraft:item_name": "Fries",
