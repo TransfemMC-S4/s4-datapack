@@ -46,7 +46,7 @@
       }
     }
   },
-  "parent": "tfh:advroot",
+  "parent": "tfh:serveradv/advroot",
   "rewards": {
     "function": "tfh:warp1"
   }
