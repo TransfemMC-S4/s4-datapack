@@ -1,7 +1,7 @@
 # run dingstart first! Change whatever you need to within the messages
 
 #Changes message number
-execute if score message dingtimer matches 15.. run scoreboard players reset message dingtimer
+execute if score message dingtimer matches 16.. run scoreboard players reset message dingtimer
 scoreboard players add message dingtimer 1
 
 #Plays ding sound
@@ -23,6 +23,7 @@ execute if score message dingtimer matches 12 run tellraw @a ["",{color:"white",
 execute if score message dingtimer matches 13 run tellraw @a ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"Guess what?"}]
 execute if score message dingtimer matches 14 run tellraw @a ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"I'm "},{color:"#f5a47e",bold:true,text:"fries!"}]
 execute if score message dingtimer matches 15 run tellraw @a ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"If you gain the "},{color:"#f5a47e",bold:true,text:"Active Member"},{color:"#f5e6a5",text:" advancement, type "},{color:"#f5a47e",bold:true,text:"/ticket"},{color:"#f5e6a5",text:" in-game to request "},{color:"#f5a47e",bold:true,text:"Insider Access!"}]
+execute if score message dingtimer matches 16 run tellraw @a ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"Yuri is better than Yaoi"}]
 
 
 #repeat
