@@ -1,0 +1,50 @@
+{
+  "display": {
+      "title": {
+          "text": "Smells Fishy..."
+      },
+      "description": {
+          "text": "Enter Port Tsuri for the first time"
+      },
+      "icon": {
+          "id": "minecraft:cod"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "position": {
+                      "x": {
+                        "min": -262,
+                        "max": -204
+                      },
+                      "z": {
+                        "min": -721,
+                        "max": -588
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "tfh:serveradv/warp2"
+}
