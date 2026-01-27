@@ -8,7 +8,7 @@ scoreboard players add message dingtimer 1
 execute as @a[tag=!muteding] at @s run playsound minecraft:tfh.info master @s ~ ~ ~ 100 1.5
 
 #Message contents
-execute if score message dingtimer matches 1 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"Check out Quinn's song of the week!"},"\n",{color:"#f5a47e",underlined:true,text:"\"",extra:[{bold:true,score:{name:"song",objective:"dingtimer"}},"\" - ",{bold:true,score:{name:"artist",objective:"dingtimer"}}]}]
+execute if score message dingtimer matches 1 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"Check out Quinn's "},{color:"#f5a47e",underlined:true,text:"",extra:[{bold:true,text:"Song of The Week!\n",click_event:{action:"open_url",url:"https://open.spotify.com/playlist/6M5Xo0Hna6RJb3YW9s2Zfh?si=cc2ee120aa4a4c50"},hover_event:{action:"show_text",value:["",{text:"Open SOTW playlist!"}]}},"\"",{bold:true,score:{name:"song",objective:"dingtimer"}},"\" - ",{bold:true,score:{name:"artist",objective:"dingtimer"}}]}]
 execute if score message dingtimer matches 2 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#f5e6a5",bold:true,italic:true,text:"Ding!"}]
 execute if score message dingtimer matches 3 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"Follow our TikTok at "},{color:"#f5a47e",bold:true,text:"@TransfemMC!"}]
 execute if score message dingtimer matches 4 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"Check out the current "},{color:"#f5a47e",bold:true,text:"community goals"},{color:"#f5e6a5",text:" at spawn!"}]
