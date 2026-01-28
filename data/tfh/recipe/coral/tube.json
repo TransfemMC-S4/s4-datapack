@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": [
+      "minecraft:tube_coral_fan"
+    ]
+  },
+  "result": {
+    "id": "minecraft:tube_coral_block",
+    "count": 1
+  }
+}
